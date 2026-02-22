@@ -18,7 +18,7 @@ btn.addEventListener('click',function(){
 
     var int = setInterval(()=>{
         grow++;
-        console.log(grow);
+        // console.log(grow);
         h2.innerHTML= grow+'%';
         inner.style.width = grow+'%';
     },num)
@@ -29,5 +29,6 @@ btn.addEventListener('click',function(){
         btn.style.opacity="0.5"
         // btn.style.pointerEvents='none' 
     }, num*100);
+
 
 })
